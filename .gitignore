@@ -1,0 +1,27 @@
+# Ignore downloaded data files
+notebooks/bluemarble.jpg
+notebooks/ne_110m_admin_0_countries.zip
+notebooks/ne_110m_admin_0_countries/
+notebooks/ne_110m_populated_places.zip
+notebooks/ne_110m_populated_places/
+
+# Ignore generated data output directory
+data/
+
+# Ignore cache directories
+notebooks/cache/
+
+# Ignore Python virtual environment folders (if any)
+.venv/
+virtualenv/
+env/
+venv/
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
