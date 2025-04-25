@@ -1,0 +1,19 @@
+[project]
+name = "geopy-foundations"
+version = "0.1.0"
+description = "Foundation libraries for Python Geoscience Ecosystem"
+authors = ["Your Name <your@email.com>"]
+dependencies = [
+    "jupyterlab",
+    "geopandas",
+    "rasterio",
+    "fiona",
+    "shapely",
+    "pyproj",
+    "matplotlib",       # For plotting maps
+    "ipykernel",        # Needed for Jupyter kernel
+]
+requires-python = ">=3.10"
+
+[tool.uv.sources]
+geopy-foundations = { path = ".", editable = true }
